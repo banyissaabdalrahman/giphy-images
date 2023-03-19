@@ -54,7 +54,7 @@ const HomeScreen = () => {
     return (
       <Pressable onPress={onItemDetailsPress} style={styles.itemContainer}>
         <Image
-          source={{uri: item.images.original_still.url}}
+          source={{uri: item.images.downsized.url}}
           style={styles.itemImage}
         />
         <Text style={styles.itemTitle}>{item.title}</Text>

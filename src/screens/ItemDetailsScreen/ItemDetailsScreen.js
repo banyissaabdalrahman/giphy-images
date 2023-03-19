@@ -31,7 +31,7 @@ const ItemDetailsScreen = () => {
     <View style={styles.container}>
       <Text style={styles.itemTitle}>{item.title}</Text>
       <Image
-        source={{uri: item.images.original_still.url}}
+        source={{uri: item.images.downsized.url}}
         style={styles.itemImage}
         resizeMode="contain"
       />
